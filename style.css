@@ -1,59 +1,66 @@
 body {
-  font-family: Arial, sans-serif;
-  background-color: #f1f1f1;
+  background-color: #f2f2f2;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   display: flex;
   justify-content: center;
   align-items: center;
   height: 100vh;
+  margin: 0;
 }
 
 .card {
-  background: #fff;
-  width: 300px;
+  background-color: #fff;
+  border-radius: 12px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
   padding: 20px;
-  border-radius: 8px;
-  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  width: 300px;
   text-align: center;
 }
 
 .card img {
-  width: 100%;
-  border-radius: 8px;
+  max-width: 100%;
+  height: auto;
+  border-radius: 10px;
+  margin-bottom: 15px;
 }
 
 .title {
   font-size: 18px;
-  margin: 10px 0;
-  color: #111;
+  font-weight: bold;
+  margin-bottom: 10px;
 }
 
 .price {
+  color: #b12704;
   font-size: 20px;
-  color: #B12704;
+  margin-bottom: 5px;
 }
 
-.price .original {
+.original {
   text-decoration: line-through;
-  color: #888;
-  font-size: 14px;
-  margin-left: 8px;
+  color: #555;
+  font-size: 16px;
+  margin-left: 5px;
 }
 
 .rating {
-  margin: 10px 0;
-  color: #FFA41C;
+  color: #ffa41c;
+  margin-bottom: 15px;
+  font-size: 16px;
 }
 
 button {
-  background-color: #FFD814;
-  border: 1px solid #FCD200;
+  background-color: #ffd814;
+  color: #000;
+  border: none;
   padding: 10px 20px;
   border-radius: 6px;
-  cursor: pointer;
+  font-size: 16px;
   font-weight: bold;
-  transition: background 0.3s;
+  cursor: pointer;
+  transition: 0.3s;
 }
 
 button:hover {
-  background-color: #F7CA00;
+  background-color: #f7ca00;
 }
